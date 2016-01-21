@@ -22,7 +22,10 @@
         "psr-4": {
             "App\\": "app/",
             "Oblagio\\": "oblagio/src/"
-        }
+        },
+        "files" : [
+            "oblagio/inject.php"
+        ]
     },
     "autoload-dev": {
         "classmap": [
