@@ -20,7 +20,8 @@
             "database"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Oblagio\\": "oblagio/src/"
         }
     },
     "autoload-dev": {
