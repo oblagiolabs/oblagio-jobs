@@ -1,4 +1,4 @@
-@extends('layouts.header')
+@include('layouts.header')
 
 
-@extends('layouts.footer')
+@include('layouts.footer')

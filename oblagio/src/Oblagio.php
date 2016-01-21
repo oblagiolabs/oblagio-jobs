@@ -20,8 +20,8 @@ class Oblagio
 		$this->assetBootstrap = $this->assetUrl.'bootstrap/';
 	}
 
-	
 
+	
 }
 
 ?>

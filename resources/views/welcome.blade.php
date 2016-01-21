@@ -2,14 +2,21 @@
 
 @section('content')
 
+<div class="jumbotron">
+  <div class="container">
+    <h1>Welcome To <b>{{ oblagio()->applicationName }}</b></h1>
+   	
+   	<p>
+   		
+   		Permudah pekerjaan anda dengan oblagio Jobs.
 
-<div class="container">
+   	</p>
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
+    <p><a class="btn btn-primary btn-lg" href="{{ url('registrasi') }}" role="button">Daftar &raquo;</a></p>
+  </div>
+</div>
 
-    </div><!-- /.container -->
+
+
 
 @endsection
